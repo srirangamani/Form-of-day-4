@@ -1,0 +1,55 @@
+body{
+    margin-top: 100px;
+    margin: 200px;
+    display: flex;
+    background-color: rgb(15, 100, 175);
+    height: 100px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 150px;  
+    box-shadow: 2px 2px 2px 2px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+}
+.brand-title{
+    color: springgreen;
+    background: url(../Form/my-image1.jpg);
+    padding: 15px;
+    margin: 20px;
+}
+input,button,label{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+.inputs{
+    text-align: left;
+}
+label{
+color: darkred;
+}
+input{
+    border-radius: 15px;
+    border: solid black .1em;
+    background-color: aqua;
+    box-decoration-break: slice;
+    padding: 10px;
+    box-shadow: 3px 3px 2px green);
+}
+button{
+    background-color: blue;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
